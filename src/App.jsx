@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
