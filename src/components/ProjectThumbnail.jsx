@@ -1,11 +1,11 @@
 import Card from "react-bootstrap/Card"
 
-export default function ProjectThumbnail() {
+export default function ProjectThumbnail( props ) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card>
+      <Card.Img variant="top" src={ props.image } />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{ props.title }</Card.Title>
       </Card.Body>
     </Card>
   )

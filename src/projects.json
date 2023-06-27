@@ -3,7 +3,7 @@
     "id": 1, 
     "title": "First Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
-    "image": "src\\assets\\pexels-andreea-ch-4178800.jpg",
+    "image": "src\\assets\\coming_soon.png",
     "github": "",
     "link": "",
     "technologies": [
@@ -13,7 +13,7 @@
     "id": 2, 
     "title": "Second Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
-    "image": "src\\assets\\pexels-camila-melo-3075974.jpg",
+    "image": "src\\assets\\coming_soon.png",
     "github": "",
     "link": "",
     "technologies": [
@@ -23,7 +23,7 @@
     "id": 3, 
     "title": "Third Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
-    "image": "src\\assets\\pexels-pixabay-274192.jpg",
+    "image": "src\\assets\\coming_soon.png",
     "github": "",
     "link": "",
     "technologies": [
