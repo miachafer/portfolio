@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ProjectThumbnail from "./ProjectThumbnail";
 import projects from "../projects.json"
 import { Row, Col } from "react-bootstrap";
@@ -24,7 +23,7 @@ export default function ProjectsPreview() {
         })}
       </Row>
       <p className="mb-4 h5">
-        <Link to="/projects">More </Link>
+        <a href="/projects">More </a>
         <BsArrowRight className="ml-2"/>
       </p>
     </>
