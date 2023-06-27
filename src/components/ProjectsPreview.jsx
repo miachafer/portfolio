@@ -24,8 +24,8 @@ export default function ProjectsPreview() {
         })}
       </Row>
       <p className="mb-4 h5">
-        <Link to="/projects">See more</Link>
-        <BsArrowRight/>
+        <Link to="/projects">See more </Link>
+        <BsArrowRight className="ml-2"/>
       </p>
     </>
   )

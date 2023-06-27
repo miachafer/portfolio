@@ -19,6 +19,15 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #000807;   
+  color: #000807; 
+}
+
+.icon {
+  color: #000807;
+  transition: color 0.3s ease;
+}
+
+a:hover .icon {
+  transform: scale(1.1);
 }
 
