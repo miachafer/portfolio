@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import ProjectThumbnail from "./ProjectThumbnail";
 import projects from "../projects.json"
 import { Row, Col } from "react-bootstrap";
+import { BsArrowRight } from "react-icons/bs"
 
 export default function ProjectsPreview() {
   const featuredProjects = projects.slice(0, 3)
@@ -22,7 +23,7 @@ export default function ProjectsPreview() {
           )
         })}
       </Row>
-      <Link to="/projects">See more</Link>
+      <Link to="/projects">See more</Link><BsArrowRight />
     </>
   )
 }
