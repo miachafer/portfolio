@@ -1,10 +1,10 @@
 [
   {
     "id": 1, 
-    "title": "First Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
+    "title": "Task Manager",
+    "description": "This is a project to practice implementing authentication in a full-stack web app and deploying it to AWS.",
     "image": "src\\assets\\coming_soon.png",
-    "github": "",
+    "github": "https://github.com/miachafer/task-manager-django-react",
     "link": "",
     "technologies": [
       {
@@ -14,37 +14,11 @@
       {
         "id": 2,
         "technology": "React" 
+      },
+      {
+        "id": 3,
+        "technology": "AWS" 
       }
-    ]
-  },
-  {
-    "id": 2, 
-    "title": "Second Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
-    "image": "src\\assets\\coming_soon.png",
-    "github": "",
-    "link": "",
-    "technologies": [
-    ]
-  },
-  {
-    "id": 3, 
-    "title": "Third Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
-    "image": "src\\assets\\coming_soon.png",
-    "github": "",
-    "link": "",
-    "technologies": [
-    ]
-  },
-  {
-    "id": 4, 
-    "title": "Fourth Project",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
-    "image": "src\\assets\\coming_soon.png",
-    "github": "",
-    "link": "",
-    "technologies": [
     ]
   }
 ]

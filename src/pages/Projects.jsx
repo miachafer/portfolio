@@ -35,12 +35,12 @@ export default function Projects() {
               </ul>
               <ul className="list-unstyled">
                 <li className="mb-2">
-                  <a href={project.github}>
+                  <a href={project.github} target="_blank">
                     <BsGithub size={30} className="icon"/> View on Github
                   </a>
                 </li>
                 <li>
-                  <a href={project.link}>
+                  <a href={project.link} target="_blank">
                     <GoLinkExternal size={30} className="icon" /> View on the web
                   </a>
                 </li>
