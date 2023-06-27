@@ -7,6 +7,14 @@
     "github": "",
     "link": "",
     "technologies": [
+      {
+        "id": 1,
+        "technology": "Django" 
+      },
+      {
+        "id": 2,
+        "technology": "React" 
+      }
     ]
   },
   {
@@ -33,7 +41,7 @@
     "id": 4, 
     "title": "Fourth Project",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce elit augue, dictum ut tortor in, elementum sodales justo. Praesent justo libero, tempor sed eros posuere, euismod iaculis libero.",
-    "image": "",
+    "image": "src\\assets\\coming_soon.png",
     "github": "",
     "link": "",
     "technologies": [
