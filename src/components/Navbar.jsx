@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 export default function Navbar() {
   return (
-    <Nav className="justify-content-end">
+    <Nav className="mt-2 mb-2 justify-content-end">
       <Nav.Item>
         <Nav.Link><Link to="/">Home</Link></Nav.Link>
       </Nav.Item>

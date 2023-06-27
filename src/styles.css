@@ -1,0 +1,24 @@
+body {
+  font-family: "JetBrains Mono";
+  background-color: #FBF9FF;
+}
+
+.nav a {
+  color: #000807;
+  font-style: normal;
+}
+
+.nav a:hover {
+  color: #9395D3;
+}
+
+a {
+  text-decoration: none;
+  color: #A2A3BB;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000807;   
+}
+
