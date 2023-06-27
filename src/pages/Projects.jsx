@@ -1,8 +1,7 @@
 import { Row, Col, Image } from "react-bootstrap"
 import projects from "../projects.json"
-import { IoIosArrowForward } from "react-icons/io"
+import { RiArrowRightDoubleFill } from "react-icons/ri"
 import { BsGithub } from "react-icons/bs"
-import { LiaHandPointer } from "react-icons/lia"
 import { GoLinkExternal } from "react-icons/go"
 
 export default function Projects() {
@@ -12,17 +11,23 @@ export default function Projects() {
       {projects && projects.map(project => {
         return (
           <Row className="mb-5">
-            <Col>
+            <Col md={6} xs={12}>
               <Image src={project.image} fluid rounded></Image>
             </Col>
-            <Col>
+            <Col md={6} xs={12} className="mt-3">
               <h2>{project.title}</h2>
               {project.description}
               <ul className="list-unstyled mt-2">
                 {project.technologies && project.technologies.map(tech => {
                   return (
-                    <li key={tech.id} >
-                      <IoIosArrowForward />
+                    <li 
+                      key={tech.id}
+                      className="mb-2"
+                    >
+                      <RiArrowRightDoubleFill 
+                        size={12}
+                        style={{ marginRight: '5px', marginBottom: '2px' }}
+                      /> 
                       {tech.technology}
                     </li>
                   )

@@ -5,10 +5,10 @@ export default function Header() {
     <>
       <Container className="mb-4">
         <Row className="d-flex align-items-center">
-          <Col>
+          <Col xs={4} md={2}>
             <Image src="src\assets\MCF.jpg" roundedCircle fluid></Image>
           </Col>
-          <Col xs={10}>
+          <Col xs={8} md={10}>
             <h1 className="ml-3">Mia Ferreira</h1>
           </Col>
         </Row>  

@@ -13,7 +13,7 @@ export default function ProjectsPreview() {
       <Row className="mb-4">
         {featuredProjects && featuredProjects.map(project => {
           return (
-            <Col xs={4}>
+            <Col md={4} xs={12} className="mb-3">
               <ProjectThumbnail
                 image={project.image}
                 title={project.title}
@@ -24,7 +24,7 @@ export default function ProjectsPreview() {
         })}
       </Row>
       <p className="mb-4 h5">
-        <Link to="/projects">See more </Link>
+        <Link to="/projects">More </Link>
         <BsArrowRight className="ml-2"/>
       </p>
     </>
