@@ -3,7 +3,7 @@
     "id": 1, 
     "title": "Task Manager",
     "description": "This is a project to practice implementing authentication in a full-stack web app and deploying it to AWS.",
-    "image": "src\\assets\\coming_soon.png",
+    "image": "src\\assets\\task-manager-preview.png",
     "github": "https://github.com/miachafer/task-manager-django-react",
     "link": "",
     "technologies": [
