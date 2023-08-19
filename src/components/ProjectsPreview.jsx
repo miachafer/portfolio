@@ -7,6 +7,10 @@ import { Link } from "react-router-dom"
 export default function ProjectsPreview() {
   const featuredProjects = projects.slice(0, 3)
 
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <>
       <h2 className="mb-4">Projects</h2>
@@ -24,7 +28,7 @@ export default function ProjectsPreview() {
         })}
       </Row>
       <p className="mb-4 h5">
-        <Link to="/portfolio/projects">More</Link>
+        <Link to="/portfolio/projects" onClick={handleClick}>More</Link>
         <BsArrowRight className="ml-2"/>
       </p>
     </>
