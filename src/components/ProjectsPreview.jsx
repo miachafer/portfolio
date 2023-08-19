@@ -2,6 +2,7 @@ import ProjectThumbnail from "./ProjectThumbnail";
 import projects from "../projects.json"
 import { Row, Col } from "react-bootstrap";
 import { BsArrowRight } from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 export default function ProjectsPreview() {
   const featuredProjects = projects.slice(0, 3)
@@ -23,7 +24,7 @@ export default function ProjectsPreview() {
         })}
       </Row>
       <p className="mb-4 h5">
-        <a href="/projects">More </a>
+        <Link to="/portfolio/projects">More</Link>
         <BsArrowRight className="ml-2"/>
       </p>
     </>
