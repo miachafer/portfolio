@@ -27,6 +27,11 @@ a:hover {
   transition: color 0.3s ease;
 }
 
+.disabled-link {
+  pointer-events: none;
+  color: grey;
+}
+
 a:hover .icon {
   transform: scale(1.1);
 }

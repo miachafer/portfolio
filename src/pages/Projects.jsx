@@ -5,6 +5,15 @@ import { BsGithub } from "react-icons/bs"
 import { GoLinkExternal } from "react-icons/go"
 
 export default function Projects() {
+  
+  const disabledLink = (link) => {
+    if (link.length === 0)
+      return true
+    else 
+      false
+  }
+
+
   return (
     <>
       <h1 className="mb-4">Projects</h1>
@@ -40,8 +49,14 @@ export default function Projects() {
                   </a>
                 </li>
                 <li>
-                  <a href={project.link} target="_blank">
-                    <GoLinkExternal size={30} className="icon" /> View on the web
+                  <a href={project.link} 
+                    target="_blank"
+                    className={disabledLink(project.link) ? 'disabled-link' : ''}  
+                  >
+                    <GoLinkExternal 
+                      size={30} 
+                      className={disabledLink(project.link) ? 'disabled-link' : 'icon'} 
+                    /> View on the web
                   </a>
                 </li>
               </ul>
