@@ -9,7 +9,7 @@ export default function Header() {
             <Image src="MCF.jpg" roundedCircle fluid></Image>
           </Col>
           <Col xs={8} md={10}>
-            <h1 className="ml-3">Mia Ferreira</h1>
+            <h1 className="ml-3">Marilia Ferreira</h1>
           </Col>
         </Row>  
       </Container>
